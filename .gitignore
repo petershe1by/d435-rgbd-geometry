@@ -1,0 +1,37 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.codex/
+.agents/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Captures, calibration, profiling and generated results
+*.bag
+*.jsonl
+*.log
+*.npz
+stereo_calibration.json
+*.prof
+benchmarks/
+simulations/
+tmp/
+output/
+
+# Local STEP indexes contain absolute paths; regenerate after cloning
+models/user_blocks/
+
+# Separate project in this workspace, outside the D435 recognizer
+vision_training_sim/
+node_modules/
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,134 @@
+{
+  "camera": {
+    "azimuth_deg": -90.0,
+    "elevation_deg": 52.0,
+    "distance_mm": 850.0,
+    "target_mm": [
+      0.0,
+      0.0,
+      35.0
+    ],
+    "horizontal_fov_deg": 58.0
+  },
+  "noise_sigma_mm": 0.8,
+  "hole_fraction": 0.02,
+  "rgb_noise_sigma": 1.0,
+  "shading": 0.12,
+  "mesh_tolerance_mm": 0.15,
+  "seed": 1,
+  "table_color_rgb": [
+    170,
+    170,
+    170
+  ],
+  "objects": [
+    {
+      "name": "cube",
+      "file": "cube.step",
+      "position_mm": [
+        -200,
+        -100
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        15
+      ],
+      "color_rgb": [
+        210,
+        40,
+        35
+      ]
+    },
+    {
+      "name": "cuboid",
+      "file": "cuboid.step",
+      "position_mm": [
+        0,
+        -100
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        -12
+      ],
+      "color_rgb": [
+        40,
+        180,
+        45
+      ]
+    },
+    {
+      "name": "triangular_pyramid",
+      "file": "triangular_pyramid.step",
+      "position_mm": [
+        200,
+        -100
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        17
+      ],
+      "color_rgb": [
+        30,
+        65,
+        200
+      ]
+    },
+    {
+      "name": "triangular_prism",
+      "file": "triangular_prism.step",
+      "position_mm": [
+        -200,
+        140
+      ],
+      "rotation_deg": [
+        90,
+        0,
+        12
+      ],
+      "color_rgb": [
+        210,
+        210,
+        30
+      ]
+    },
+    {
+      "name": "cone",
+      "file": "cone.step",
+      "position_mm": [
+        0,
+        140
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "color_rgb": [
+        175,
+        40,
+        180
+      ]
+    },
+    {
+      "name": "cylinder",
+      "file": "cylinder.step",
+      "position_mm": [
+        200,
+        140
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "color_rgb": [
+        230,
+        120,
+        30
+      ]
+    }
+  ]
+}
